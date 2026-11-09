@@ -1697,7 +1697,7 @@ fun TodayScreen(
                             // so the rings + white count-up numbers stay crisp. A rounded 26 corner + a
                             // faint white hairline give it the frosted-glass edge of the iOS liquid heroCard
                             // (heroFill = rgba(13,14,20,.80), stroke white@0.11).
-                            Box(
+                            Column(
                                 modifier = Modifier
                                     .fillMaxWidth()
                                     .background(
@@ -1707,6 +1707,24 @@ fun TodayScreen(
                                     .border(1.dp, Palette.heroBorder.copy(alpha = Palette.heroBorder.alpha * CardAppearance.opacity), RoundedCornerShape(LIQUID_HERO_RADIUS))
                                     .staggeredAppear(stagger),
                             ) {
+                                Row(
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .padding(start = Metrics.space24, top = Metrics.space16),
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.spacedBy(Metrics.space8),
+                                ) {
+                                    Box(
+                                        Modifier
+                                            .size(Metrics.space8)
+                                            .background(Palette.accent, RoundedCornerShape(50)),
+                                    )
+                                    Text(
+                                        text = stringResource(R.string.today_daily_scores),
+                                        style = NoopType.overline,
+                                        color = Palette.textSecondary,
+                                    )
+                                }
                                 ScoreHeroRow(
                                     day = displayMetric,
                                     restScore = restScoreForDay,

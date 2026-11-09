@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="today_daily_scores">WYNIKI DZIENNE</string>
     <string name="app_name">NOOP</string>
     <string name="widget_description">Dzisiejsze Odpoczynek, Energia i Wysiłek, z podglądem tętna na żywo i baterią paska.</string>
     <string name="widget_compact_name">NOOP Kompaktowy</string>

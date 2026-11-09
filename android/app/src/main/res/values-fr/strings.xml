@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="today_daily_scores">SCORES DU JOUR</string>
 
     <string name="sleep_status_calculating_title">Calcul du sommeil de la nuit dernière…</string>
     <string name="sleep_status_calculating_body">L’historique de votre bracelet est arrivé. NOOP détecte et analyse maintenant la nuit.</string>

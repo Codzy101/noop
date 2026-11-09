@@ -2404,6 +2404,7 @@
     <string name="today_card_coupled">Coupled view</string>
     <string name="today_card_coupled_subtitle">Recovery, strain and sleep in one glance</string>
     <string name="today_metric_charge">Charge</string>
+    <string name="today_daily_scores">DAILY SCORES</string>
     <string name="today_metric_effort">Effort</string>
     <string name="today_metric_rest">Rest</string>
     <string name="today_metric_hrv">HRV</string>
