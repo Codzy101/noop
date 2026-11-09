@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="today_daily_scores">PUNTUACIONES DIARIAS</string>
 
     <string name="sleep_status_calculating_title">Calculando el sueño de anoche…</string>
     <string name="sleep_status_calculating_body">El historial de tu pulsera ya está disponible. NOOP está detectando y analizando la noche.</string>

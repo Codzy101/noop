@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="today_daily_scores">ПОКАЗАТЕЛИ ЗА ДЕНЬ</string>
     <!-- Russian (ru). App name stays untranslated (brand).
          Two provenances, deliberately kept in one file: strings joined from the EXISTING Apple
          Russian translations on their shared English source, and strings translated for Android

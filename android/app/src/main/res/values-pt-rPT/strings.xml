@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="today_daily_scores">PONTUAÇÕES DIÁRIAS</string>
 
     <!-- Portuguese (Portugal) localization. -->
     <string name="app_name">NOOP</string>
